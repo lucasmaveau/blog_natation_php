@@ -1,0 +1,68 @@
+.page_de_co{
+  overflow: hidden;
+  width: 75%;
+  text-align: center;
+  margin: auto;
+  line-height: 35px;
+}
+
+body {
+    /* fond de page de natation */
+    background-image: url(./fond_page_de_co.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex; /* afficher le contenu relatif en fonction de l'écran*/
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+
+}
+
+.page_de_co2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap:7px;
+}
+
+.page_de_co3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 82%;
+}
+
+form {
+    background: rgba(255, 255, 255, 0.521);
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.input_formulaire{
+    width: 52%;
+    height: 21px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    justify-content: space-between;
+}
+
+.input_valider{
+    width: 30%;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.input_valider:hover{
+    background-color: #ccc;
+}
+
+.input_valider:active{
+    color: #ccc;
+}
